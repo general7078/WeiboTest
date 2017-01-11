@@ -9,7 +9,7 @@
 #import "AlbumeCoversView.h"
 
 @interface AlbumeCoversView ()
-≤
+
 @end
 
 @implementation AlbumeCoversView
