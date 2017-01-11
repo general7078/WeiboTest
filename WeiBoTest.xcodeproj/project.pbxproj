@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842A58671E1CD3DD006C1D33 /* TopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A58661E1CD3DD006C1D33 /* TopicCell.m */; };
+		842A586A1E1CDBC6006C1D33 /* ArticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A58691E1CDBC6006C1D33 /* ArticleCell.m */; };
+		842A586D1E1E4607006C1D33 /* Weibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A586C1E1E4607006C1D33 /* Weibo.m */; };
+		842A58701E1F379F006C1D33 /* WeiboCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A586F1E1F379F006C1D33 /* WeiboCell.m */; };
+		842A58731E1F37BD006C1D33 /* WeiboWithForwardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A58721E1F37BD006C1D33 /* WeiboWithForwardCell.m */; };
+		842A58771E1F37F5006C1D33 /* WeiboWithForwardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842A58761E1F37F5006C1D33 /* WeiboWithForwardCell.xib */; };
+		842A58791E1F380C006C1D33 /* WeiboCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842A58781E1F380C006C1D33 /* WeiboCell.xib */; };
+		843F95CE1E0BCD020026BF8F /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843F95CD1E0BCD020026BF8F /* BaseTableViewController.m */; };
+		843F95D11E0BCD4E0026BF8F /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843F95D01E0BCD4E0026BF8F /* HomeTableViewController.m */; };
+		843F95D41E0BCD650026BF8F /* HeadlineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843F95D31E0BCD650026BF8F /* HeadlineTableViewController.m */; };
+		843F95D71E0BCD7B0026BF8F /* AlbumeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843F95D61E0BCD7B0026BF8F /* AlbumeTableViewController.m */; };
+		843F95DA1E0BCD9B0026BF8F /* WeiboTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843F95D91E0BCD9B0026BF8F /* WeiboTableViewController.m */; };
 		844721961E0B715900483FAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721951E0B715900483FAF /* main.m */; };
 		844721991E0B715900483FAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721981E0B715900483FAF /* AppDelegate.m */; };
 		8447219C1E0B715900483FAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447219B1E0B715900483FAF /* ViewController.m */; };
@@ -15,6 +27,30 @@
 		844721A41E0B715900483FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844721A21E0B715900483FAF /* LaunchScreen.storyboard */; };
 		844721AF1E0B715900483FAF /* WeiBoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721AE1E0B715900483FAF /* WeiBoTestTests.m */; };
 		844721BA1E0B715900483FAF /* WeiBoTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721B91E0B715900483FAF /* WeiBoTestUITests.m */; };
+		844721CB1E0B74CB00483FAF /* PersonPageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721CA1E0B74CB00483FAF /* PersonPageHeaderView.m */; };
+		844721CD1E0B74E100483FAF /* PersonPageHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844721CC1E0B74E100483FAF /* PersonPageHeaderView.xib */; };
+		844721EC1E0B75F300483FAF /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721D41E0B75F300483FAF /* MASCompositeConstraint.m */; };
+		844721ED1E0B75F300483FAF /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721D61E0B75F300483FAF /* MASConstraint.m */; };
+		844721EE1E0B75F300483FAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721D91E0B75F300483FAF /* MASConstraintMaker.m */; };
+		844721EF1E0B75F300483FAF /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721DB1E0B75F300483FAF /* MASLayoutConstraint.m */; };
+		844721F01E0B75F300483FAF /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721DF1E0B75F300483FAF /* MASViewAttribute.m */; };
+		844721F11E0B75F300483FAF /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721E11E0B75F300483FAF /* MASViewConstraint.m */; };
+		844721F21E0B75F300483FAF /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721E31E0B75F300483FAF /* NSArray+MASAdditions.m */; };
+		844721F31E0B75F300483FAF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721E61E0B75F300483FAF /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		844721F41E0B75F300483FAF /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721E81E0B75F300483FAF /* View+MASAdditions.m */; };
+		844721F51E0B75F300483FAF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 844721EB1E0B75F300483FAF /* ViewController+MASAdditions.m */; };
+		84C517F91E261431000E683A /* AlbumeSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C517F81E261431000E683A /* AlbumeSectionHeaderView.m */; };
+		84C517FC1E261F61000E683A /* AlbumeCoversView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C517FB1E261F61000E683A /* AlbumeCoversView.m */; };
+		84F3E5D41E1631FC00E1B942 /* HeadSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F3E5D31E1631FC00E1B942 /* HeadSegmentView.m */; };
+		84F3E5DB1E1B775400E1B942 /* albume.js in Resources */ = {isa = PBXBuildFile; fileRef = 84F3E5D61E1B775400E1B942 /* albume.js */; };
+		84F3E5DC1E1B775400E1B942 /* headline.js in Resources */ = {isa = PBXBuildFile; fileRef = 84F3E5D71E1B775400E1B942 /* headline.js */; };
+		84F3E5DD1E1B775400E1B942 /* homepage.js in Resources */ = {isa = PBXBuildFile; fileRef = 84F3E5D81E1B775400E1B942 /* homepage.js */; };
+		84F3E5DE1E1B775400E1B942 /* profile.js in Resources */ = {isa = PBXBuildFile; fileRef = 84F3E5D91E1B775400E1B942 /* profile.js */; };
+		84F3E5DF1E1B775400E1B942 /* weibo.js in Resources */ = {isa = PBXBuildFile; fileRef = 84F3E5DA1E1B775400E1B942 /* weibo.js */; };
+		84F3E5E31E1B7F6700E1B942 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F3E5E21E1B7F6700E1B942 /* Profile.m */; };
+		84F3E5E61E1BA32100E1B942 /* HomePageSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F3E5E51E1BA32100E1B942 /* HomePageSectionView.m */; };
+		84F3E5E81E1BA33600E1B942 /* HomePageSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F3E5E71E1BA33600E1B942 /* HomePageSectionView.xib */; };
+		84F3E5EB1E1BC55000E1B942 /* BaseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F3E5EA1E1BC55000E1B942 /* BaseItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +71,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842A58651E1CD3DD006C1D33 /* TopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicCell.h; path = Components/TopicCell.h; sourceTree = "<group>"; };
+		842A58661E1CD3DD006C1D33 /* TopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicCell.m; path = Components/TopicCell.m; sourceTree = "<group>"; };
+		842A58681E1CDBC6006C1D33 /* ArticleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleCell.h; path = Components/ArticleCell.h; sourceTree = "<group>"; };
+		842A58691E1CDBC6006C1D33 /* ArticleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleCell.m; path = Components/ArticleCell.m; sourceTree = "<group>"; };
+		842A586B1E1E4607006C1D33 /* Weibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weibo.h; path = Entity/Weibo.h; sourceTree = "<group>"; };
+		842A586C1E1E4607006C1D33 /* Weibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Weibo.m; path = Entity/Weibo.m; sourceTree = "<group>"; };
+		842A586E1E1F379F006C1D33 /* WeiboCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeiboCell.h; path = Components/WeiboCell.h; sourceTree = "<group>"; };
+		842A586F1E1F379F006C1D33 /* WeiboCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeiboCell.m; path = Components/WeiboCell.m; sourceTree = "<group>"; };
+		842A58711E1F37BD006C1D33 /* WeiboWithForwardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeiboWithForwardCell.h; path = Components/WeiboWithForwardCell.h; sourceTree = "<group>"; };
+		842A58721E1F37BD006C1D33 /* WeiboWithForwardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeiboWithForwardCell.m; path = Components/WeiboWithForwardCell.m; sourceTree = "<group>"; };
+		842A58761E1F37F5006C1D33 /* WeiboWithForwardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "\U0010WeiboWithForwardCell.xib"; path = "Components/\U0010WeiboWithForwardCell.xib"; sourceTree = "<group>"; };
+		842A58781E1F380C006C1D33 /* WeiboCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeiboCell.xib; sourceTree = "<group>"; };
+		843F95CC1E0BCD020026BF8F /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTableViewController.h; path = Controllers/BaseTableViewController.h; sourceTree = "<group>"; };
+		843F95CD1E0BCD020026BF8F /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewController.m; path = Controllers/BaseTableViewController.m; sourceTree = "<group>"; };
+		843F95CF1E0BCD4E0026BF8F /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeTableViewController.h; path = Controllers/HomeTableViewController.h; sourceTree = "<group>"; };
+		843F95D01E0BCD4E0026BF8F /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeTableViewController.m; path = Controllers/HomeTableViewController.m; sourceTree = "<group>"; };
+		843F95D21E0BCD650026BF8F /* HeadlineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeadlineTableViewController.h; path = Controllers/HeadlineTableViewController.h; sourceTree = "<group>"; };
+		843F95D31E0BCD650026BF8F /* HeadlineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeadlineTableViewController.m; path = Controllers/HeadlineTableViewController.m; sourceTree = "<group>"; };
+		843F95D51E0BCD7B0026BF8F /* AlbumeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumeTableViewController.h; sourceTree = "<group>"; };
+		843F95D61E0BCD7B0026BF8F /* AlbumeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumeTableViewController.m; sourceTree = "<group>"; };
+		843F95D81E0BCD9B0026BF8F /* WeiboTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeiboTableViewController.h; path = Controllers/WeiboTableViewController.h; sourceTree = "<group>"; };
+		843F95D91E0BCD9B0026BF8F /* WeiboTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeiboTableViewController.m; path = Controllers/WeiboTableViewController.m; sourceTree = "<group>"; };
 		844721911E0B715900483FAF /* WeiBoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiBoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844721951E0B715900483FAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		844721971E0B715900483FAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +109,52 @@
 		844721B51E0B715900483FAF /* WeiBoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiBoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844721B91E0B715900483FAF /* WeiBoTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiBoTestUITests.m; sourceTree = "<group>"; };
 		844721BB1E0B715900483FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844721C91E0B74CB00483FAF /* PersonPageHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonPageHeaderView.h; path = Components/PersonPageHeaderView.h; sourceTree = "<group>"; };
+		844721CA1E0B74CB00483FAF /* PersonPageHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonPageHeaderView.m; path = Components/PersonPageHeaderView.m; sourceTree = "<group>"; };
+		844721CC1E0B74E100483FAF /* PersonPageHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PersonPageHeaderView.xib; path = Components/PersonPageHeaderView.xib; sourceTree = "<group>"; };
+		844721D31E0B75F300483FAF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = 3rd/Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		844721D41E0B75F300483FAF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = 3rd/Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		844721D51E0B75F300483FAF /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = 3rd/Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		844721D61E0B75F300483FAF /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = 3rd/Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		844721D71E0B75F300483FAF /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "3rd/Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		844721D81E0B75F300483FAF /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = 3rd/Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		844721D91E0B75F300483FAF /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = 3rd/Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		844721DA1E0B75F300483FAF /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = 3rd/Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		844721DB1E0B75F300483FAF /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = 3rd/Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		844721DC1E0B75F300483FAF /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = 3rd/Masonry/Masonry.h; sourceTree = "<group>"; };
+		844721DD1E0B75F300483FAF /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = 3rd/Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		844721DE1E0B75F300483FAF /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = 3rd/Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		844721DF1E0B75F300483FAF /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = 3rd/Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		844721E01E0B75F300483FAF /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = 3rd/Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		844721E11E0B75F300483FAF /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = 3rd/Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		844721E21E0B75F300483FAF /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "3rd/Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		844721E31E0B75F300483FAF /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "3rd/Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		844721E41E0B75F300483FAF /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "3rd/Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		844721E51E0B75F300483FAF /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "3rd/Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		844721E61E0B75F300483FAF /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "3rd/Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		844721E71E0B75F300483FAF /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "3rd/Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		844721E81E0B75F300483FAF /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "3rd/Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		844721E91E0B75F300483FAF /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "3rd/Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		844721EA1E0B75F300483FAF /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "3rd/Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		844721EB1E0B75F300483FAF /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "3rd/Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		84C517F71E261431000E683A /* AlbumeSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlbumeSectionHeaderView.h; path = Components/AlbumeSectionHeaderView.h; sourceTree = "<group>"; };
+		84C517F81E261431000E683A /* AlbumeSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlbumeSectionHeaderView.m; path = Components/AlbumeSectionHeaderView.m; sourceTree = "<group>"; };
+		84C517FA1E261F61000E683A /* AlbumeCoversView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumeCoversView.h; sourceTree = "<group>"; };
+		84C517FB1E261F61000E683A /* AlbumeCoversView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumeCoversView.m; sourceTree = "<group>"; };
+		84F3E5D21E1631FC00E1B942 /* HeadSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadSegmentView.h; sourceTree = "<group>"; };
+		84F3E5D31E1631FC00E1B942 /* HeadSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadSegmentView.m; sourceTree = "<group>"; };
+		84F3E5D61E1B775400E1B942 /* albume.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = albume.js; path = data/albume.js; sourceTree = "<group>"; };
+		84F3E5D71E1B775400E1B942 /* headline.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = headline.js; path = data/headline.js; sourceTree = "<group>"; };
+		84F3E5D81E1B775400E1B942 /* homepage.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = homepage.js; path = data/homepage.js; sourceTree = "<group>"; };
+		84F3E5D91E1B775400E1B942 /* profile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = profile.js; path = data/profile.js; sourceTree = "<group>"; };
+		84F3E5DA1E1B775400E1B942 /* weibo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = weibo.js; path = data/weibo.js; sourceTree = "<group>"; };
+		84F3E5E11E1B7F6700E1B942 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		84F3E5E21E1B7F6700E1B942 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		84F3E5E41E1BA32100E1B942 /* HomePageSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageSectionView.h; sourceTree = "<group>"; };
+		84F3E5E51E1BA32100E1B942 /* HomePageSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageSectionView.m; sourceTree = "<group>"; };
+		84F3E5E71E1BA33600E1B942 /* HomePageSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageSectionView.xib; sourceTree = "<group>"; };
+		84F3E5E91E1BC55000E1B942 /* BaseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseItem.h; path = Entity/BaseItem.h; sourceTree = "<group>"; };
+		84F3E5EA1E1BC55000E1B942 /* BaseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseItem.m; path = Entity/BaseItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +205,14 @@
 		844721931E0B715900483FAF /* WeiBoTest */ = {
 			isa = PBXGroup;
 			children = (
+				84F3E5E01E1B7F3100E1B942 /* Entity */,
+				84F3E5D51E1B75BF00E1B942 /* Data */,
+				844721CE1E0B756700483FAF /* 3rd */,
+				844721C81E0B71E600483FAF /* Components */,
+				842A586E1E1F379F006C1D33 /* WeiboCell.h */,
+				844721C71E0B71D000483FAF /* Controllers */,
 				844721971E0B715900483FAF /* AppDelegate.h */,
 				844721981E0B715900483FAF /* AppDelegate.m */,
-				8447219A1E0B715900483FAF /* ViewController.h */,
-				8447219B1E0B715900483FAF /* ViewController.m */,
 				8447219D1E0B715900483FAF /* Main.storyboard */,
 				844721A01E0B715900483FAF /* Assets.xcassets */,
 				844721A21E0B715900483FAF /* LaunchScreen.storyboard */,
@@ -138,6 +246,118 @@
 				844721BB1E0B715900483FAF /* Info.plist */,
 			);
 			path = WeiBoTestUITests;
+			sourceTree = "<group>";
+		};
+		844721C71E0B71D000483FAF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8447219A1E0B715900483FAF /* ViewController.h */,
+				8447219B1E0B715900483FAF /* ViewController.m */,
+				843F95CC1E0BCD020026BF8F /* BaseTableViewController.h */,
+				843F95CD1E0BCD020026BF8F /* BaseTableViewController.m */,
+				843F95CF1E0BCD4E0026BF8F /* HomeTableViewController.h */,
+				843F95D01E0BCD4E0026BF8F /* HomeTableViewController.m */,
+				843F95D21E0BCD650026BF8F /* HeadlineTableViewController.h */,
+				843F95D31E0BCD650026BF8F /* HeadlineTableViewController.m */,
+				843F95D51E0BCD7B0026BF8F /* AlbumeTableViewController.h */,
+				843F95D61E0BCD7B0026BF8F /* AlbumeTableViewController.m */,
+				843F95D81E0BCD9B0026BF8F /* WeiboTableViewController.h */,
+				843F95D91E0BCD9B0026BF8F /* WeiboTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		844721C81E0B71E600483FAF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				844721C91E0B74CB00483FAF /* PersonPageHeaderView.h */,
+				844721CA1E0B74CB00483FAF /* PersonPageHeaderView.m */,
+				844721CC1E0B74E100483FAF /* PersonPageHeaderView.xib */,
+				84F3E5D21E1631FC00E1B942 /* HeadSegmentView.h */,
+				84F3E5D31E1631FC00E1B942 /* HeadSegmentView.m */,
+				84F3E5E41E1BA32100E1B942 /* HomePageSectionView.h */,
+				84F3E5E51E1BA32100E1B942 /* HomePageSectionView.m */,
+				84F3E5E71E1BA33600E1B942 /* HomePageSectionView.xib */,
+				842A58651E1CD3DD006C1D33 /* TopicCell.h */,
+				842A58661E1CD3DD006C1D33 /* TopicCell.m */,
+				842A58681E1CDBC6006C1D33 /* ArticleCell.h */,
+				842A58691E1CDBC6006C1D33 /* ArticleCell.m */,
+				842A586F1E1F379F006C1D33 /* WeiboCell.m */,
+				842A58781E1F380C006C1D33 /* WeiboCell.xib */,
+				842A58711E1F37BD006C1D33 /* WeiboWithForwardCell.h */,
+				842A58721E1F37BD006C1D33 /* WeiboWithForwardCell.m */,
+				842A58761E1F37F5006C1D33 /* WeiboWithForwardCell.xib */,
+				84C517F71E261431000E683A /* AlbumeSectionHeaderView.h */,
+				84C517F81E261431000E683A /* AlbumeSectionHeaderView.m */,
+				84C517FA1E261F61000E683A /* AlbumeCoversView.h */,
+				84C517FB1E261F61000E683A /* AlbumeCoversView.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		844721CE1E0B756700483FAF /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				844721D01E0B75CF00483FAF /* masonry */,
+			);
+			name = 3rd;
+			sourceTree = "<group>";
+		};
+		844721D01E0B75CF00483FAF /* masonry */ = {
+			isa = PBXGroup;
+			children = (
+				844721D31E0B75F300483FAF /* MASCompositeConstraint.h */,
+				844721D41E0B75F300483FAF /* MASCompositeConstraint.m */,
+				844721D51E0B75F300483FAF /* MASConstraint.h */,
+				844721D61E0B75F300483FAF /* MASConstraint.m */,
+				844721D71E0B75F300483FAF /* MASConstraint+Private.h */,
+				844721D81E0B75F300483FAF /* MASConstraintMaker.h */,
+				844721D91E0B75F300483FAF /* MASConstraintMaker.m */,
+				844721DA1E0B75F300483FAF /* MASLayoutConstraint.h */,
+				844721DB1E0B75F300483FAF /* MASLayoutConstraint.m */,
+				844721DC1E0B75F300483FAF /* Masonry.h */,
+				844721DD1E0B75F300483FAF /* MASUtilities.h */,
+				844721DE1E0B75F300483FAF /* MASViewAttribute.h */,
+				844721DF1E0B75F300483FAF /* MASViewAttribute.m */,
+				844721E01E0B75F300483FAF /* MASViewConstraint.h */,
+				844721E11E0B75F300483FAF /* MASViewConstraint.m */,
+				844721E21E0B75F300483FAF /* NSArray+MASAdditions.h */,
+				844721E31E0B75F300483FAF /* NSArray+MASAdditions.m */,
+				844721E41E0B75F300483FAF /* NSArray+MASShorthandAdditions.h */,
+				844721E51E0B75F300483FAF /* NSLayoutConstraint+MASDebugAdditions.h */,
+				844721E61E0B75F300483FAF /* NSLayoutConstraint+MASDebugAdditions.m */,
+				844721E71E0B75F300483FAF /* View+MASAdditions.h */,
+				844721E81E0B75F300483FAF /* View+MASAdditions.m */,
+				844721E91E0B75F300483FAF /* View+MASShorthandAdditions.h */,
+				844721EA1E0B75F300483FAF /* ViewController+MASAdditions.h */,
+				844721EB1E0B75F300483FAF /* ViewController+MASAdditions.m */,
+			);
+			name = masonry;
+			sourceTree = "<group>";
+		};
+		84F3E5D51E1B75BF00E1B942 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				84F3E5D61E1B775400E1B942 /* albume.js */,
+				84F3E5D71E1B775400E1B942 /* headline.js */,
+				84F3E5D81E1B775400E1B942 /* homepage.js */,
+				84F3E5D91E1B775400E1B942 /* profile.js */,
+				84F3E5DA1E1B775400E1B942 /* weibo.js */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		84F3E5E01E1B7F3100E1B942 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				84F3E5E11E1B7F6700E1B942 /* Profile.h */,
+				84F3E5E21E1B7F6700E1B942 /* Profile.m */,
+				84F3E5E91E1BC55000E1B942 /* BaseItem.h */,
+				84F3E5EA1E1BC55000E1B942 /* BaseItem.m */,
+				842A586B1E1E4607006C1D33 /* Weibo.h */,
+				842A586C1E1E4607006C1D33 /* Weibo.m */,
+			);
+			name = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +469,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F3E5DF1E1B775400E1B942 /* weibo.js in Resources */,
 				844721A41E0B715900483FAF /* LaunchScreen.storyboard in Resources */,
+				844721CD1E0B74E100483FAF /* PersonPageHeaderView.xib in Resources */,
+				84F3E5DC1E1B775400E1B942 /* headline.js in Resources */,
 				844721A11E0B715900483FAF /* Assets.xcassets in Resources */,
+				84F3E5DD1E1B775400E1B942 /* homepage.js in Resources */,
+				84F3E5E81E1BA33600E1B942 /* HomePageSectionView.xib in Resources */,
 				8447219F1E0B715900483FAF /* Main.storyboard in Resources */,
+				842A58771E1F37F5006C1D33 /* WeiboWithForwardCell.xib in Resources */,
+				84F3E5DE1E1B775400E1B942 /* profile.js in Resources */,
+				84F3E5DB1E1B775400E1B942 /* albume.js in Resources */,
+				842A58791E1F380C006C1D33 /* WeiboCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +505,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F3E5E61E1BA32100E1B942 /* HomePageSectionView.m in Sources */,
+				84F3E5D41E1631FC00E1B942 /* HeadSegmentView.m in Sources */,
+				844721EE1E0B75F300483FAF /* MASConstraintMaker.m in Sources */,
+				84F3E5EB1E1BC55000E1B942 /* BaseItem.m in Sources */,
 				8447219C1E0B715900483FAF /* ViewController.m in Sources */,
+				843F95D11E0BCD4E0026BF8F /* HomeTableViewController.m in Sources */,
+				842A586A1E1CDBC6006C1D33 /* ArticleCell.m in Sources */,
+				844721CB1E0B74CB00483FAF /* PersonPageHeaderView.m in Sources */,
+				843F95D71E0BCD7B0026BF8F /* AlbumeTableViewController.m in Sources */,
+				844721ED1E0B75F300483FAF /* MASConstraint.m in Sources */,
+				844721F51E0B75F300483FAF /* ViewController+MASAdditions.m in Sources */,
+				843F95CE1E0BCD020026BF8F /* BaseTableViewController.m in Sources */,
+				844721EF1E0B75F300483FAF /* MASLayoutConstraint.m in Sources */,
+				84C517F91E261431000E683A /* AlbumeSectionHeaderView.m in Sources */,
+				84C517FC1E261F61000E683A /* AlbumeCoversView.m in Sources */,
+				843F95DA1E0BCD9B0026BF8F /* WeiboTableViewController.m in Sources */,
+				844721F21E0B75F300483FAF /* NSArray+MASAdditions.m in Sources */,
+				84F3E5E31E1B7F6700E1B942 /* Profile.m in Sources */,
+				842A58731E1F37BD006C1D33 /* WeiboWithForwardCell.m in Sources */,
+				844721F11E0B75F300483FAF /* MASViewConstraint.m in Sources */,
+				844721F01E0B75F300483FAF /* MASViewAttribute.m in Sources */,
+				844721F41E0B75F300483FAF /* View+MASAdditions.m in Sources */,
 				844721991E0B715900483FAF /* AppDelegate.m in Sources */,
 				844721961E0B715900483FAF /* main.m in Sources */,
+				844721EC1E0B75F300483FAF /* MASCompositeConstraint.m in Sources */,
+				842A586D1E1E4607006C1D33 /* Weibo.m in Sources */,
+				842A58701E1F379F006C1D33 /* WeiboCell.m in Sources */,
+				844721F31E0B75F300483FAF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				842A58671E1CD3DD006C1D33 /* TopicCell.m in Sources */,
+				843F95D41E0BCD650026BF8F /* HeadlineTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +770,7 @@
 				844721C01E0B715900483FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		844721C11E0B715900483FAF /* Build configuration list for PBXNativeTarget "WeiBoTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +779,7 @@
 				844721C31E0B715900483FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		844721C41E0B715900483FAF /* Build configuration list for PBXNativeTarget "WeiBoTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +788,7 @@
 				844721C61E0B715900483FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

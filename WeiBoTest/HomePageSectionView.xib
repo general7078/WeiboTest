@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HomePageSectionView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uwk-wx-FOL">
+                    <rect key="frame" x="0.0" y="75" width="3" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uTh-Yn-dds">
+                    <rect key="frame" x="3" y="75" width="372" height="30"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5KQ-ar-BSR">
+                            <rect key="frame" x="5" y="7" width="36" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoe-ad-g3z">
+                            <rect key="frame" x="337" y="1" width="30" height="28"/>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
+                            <state key="normal" title="更多">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="59P-1n-Cpe"/>
+                        <constraint firstItem="5KQ-ar-BSR" firstAttribute="leading" secondItem="uTh-Yn-dds" secondAttribute="leading" constant="5" id="5uo-rF-TLh"/>
+                        <constraint firstItem="5KQ-ar-BSR" firstAttribute="centerY" secondItem="uTh-Yn-dds" secondAttribute="centerY" id="6sK-Yi-LMe"/>
+                        <constraint firstItem="aoe-ad-g3z" firstAttribute="centerY" secondItem="uTh-Yn-dds" secondAttribute="centerY" id="AYF-f2-PVd"/>
+                        <constraint firstAttribute="trailing" secondItem="aoe-ad-g3z" secondAttribute="trailing" constant="5" id="FdX-RV-nM9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="uTh-Yn-dds" secondAttribute="trailing" id="HFB-Lg-f19"/>
+                <constraint firstItem="Uwk-wx-FOL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Otc-1u-V1U"/>
+                <constraint firstItem="Uwk-wx-FOL" firstAttribute="centerY" secondItem="uTh-Yn-dds" secondAttribute="centerY" id="QWi-ld-cxi"/>
+                <constraint firstItem="uTh-Yn-dds" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="3" id="RHY-dp-Nd7"/>
+                <constraint firstItem="Uwk-wx-FOL" firstAttribute="height" secondItem="uTh-Yn-dds" secondAttribute="height" id="RMz-xj-au6"/>
+                <constraint firstItem="Uwk-wx-FOL" firstAttribute="trailing" secondItem="uTh-Yn-dds" secondAttribute="leading" id="rev-dt-EnD"/>
+                <constraint firstAttribute="bottom" secondItem="uTh-Yn-dds" secondAttribute="bottom" id="sSn-gp-AJO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="sectionTitle" destination="5KQ-ar-BSR" id="P8U-bO-pNn"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="-227.5"/>
+        </view>
+    </objects>
+</document>
