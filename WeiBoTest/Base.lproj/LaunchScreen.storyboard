@@ -20,7 +20,29 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover" translatesAutoresizingMaskIntoConstraints="NO" id="uec-aR-t7c">
+                                <rect key="frame" x="0.0" y="234" width="375" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="TEv-BX-9gz"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BHL-W3-99u">
+                                <rect key="frame" x="149.5" y="464" width="75" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BHL-W3-99u" firstAttribute="top" secondItem="uec-aR-t7c" secondAttribute="bottom" constant="30" id="FAs-sn-L1w"/>
+                            <constraint firstItem="uec-aR-t7c" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="MW4-rw-Xpf"/>
+                            <constraint firstAttribute="trailing" secondItem="uec-aR-t7c" secondAttribute="trailing" id="Ndf-h5-nxR"/>
+                            <constraint firstItem="uec-aR-t7c" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="QWg-IN-lsa"/>
+                            <constraint firstItem="uec-aR-t7c" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kF4-vQ-Z87"/>
+                            <constraint firstItem="BHL-W3-99u" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ofa-17-wZc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -28,4 +50,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cover" width="800" height="450"/>
+    </resources>
 </document>
