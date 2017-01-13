@@ -9,6 +9,7 @@
 #import "AlbumeTableViewController.h"
 #import "Masonry.h"
 #import "AlbumeSectionHeaderView.h"
+#import "AlbumeCoversView.h"
 
 #define REMAIN_FOR_SPACING 14
 
@@ -47,6 +48,27 @@
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 1) {
         UICollectionViewCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"FirstCell" forIndexPath:indexPath];
+        
+        if (cell.contentView.subviews.count == 0) {
+            AlbumeCoversView* covers = [AlbumeCoversView new];
+            covers.backgroundColor = [UIColor whiteColor];
+            UIImage* cover1 = [UIImage imageNamed:@"w3"];
+            UIImage* cover2 = [UIImage imageNamed:@"w7"];
+            UIImage* cover3 = [UIImage imageNamed:@"w10"];
+            UIImage* cover4 = [UIImage imageNamed:@"w15"];
+            [covers setItemDesc:@[@{@"title":@"全部视频",@"image":cover1,@"tag":@"1"},
+                                  @{@"title":@"赞过的图",@"image":cover2,@"tag":@"2"},
+                                  @{@"title":@"头像专辑",@"image":cover3,@"tag":@"3"},
+                                  @{@"title":@"面孔专辑",@"image":cover4,@"tag":@"4"}]];
+            [cell.contentView addSubview:covers];
+            [covers mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.left.equalTo(cell.contentView.mas_left);
+                make.right.equalTo(cell.contentView.mas_right);
+                make.top.equalTo(cell.contentView.mas_top);
+                make.bottom.equalTo(cell.contentView.mas_bottom);
+            }];
+            [covers setupUI];
+        }
         return cell;
     }
     
@@ -57,7 +79,6 @@
             make.width.equalTo([NSNumber numberWithFloat:(screenWidth - REMAIN_FOR_SPACING)/3]);
             make.height.equalTo([NSNumber numberWithFloat:(screenWidth - REMAIN_FOR_SPACING)/3]);
         }];
-        cell.contentView.backgroundColor = [UIColor blackColor];
         if (cell.contentView.subviews.count == 0) {
             UIImageView* image = [UIImageView new];
             image.contentMode = UIViewContentModeScaleAspectFill;
@@ -96,7 +117,9 @@
 }
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 1) {
-        return CGSizeMake([UIScreen mainScreen].bounds.size.width, 100);
+        CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
+        CGFloat tWidth = (screenWidth - 25) /4;
+        return CGSizeMake(screenWidth, tWidth + 25);
     }
     if (indexPath.section > 1) {
         CGFloat size = ([UIScreen mainScreen].bounds.size.width - REMAIN_FOR_SPACING)/3;
